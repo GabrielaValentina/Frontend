@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textViewTrainLISTVIEWADAPTERREVIEWSTRAIN"
+        android:layout_width="86dp"
+        android:layout_height="226dp"
+        android:layout_weight="0.88"
+        android:text="\n \n \n \n \n \n IR1234"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="294dp"
+        android:layout_height="226dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RatingBar
+            android:id="@+id/ratingBarLISTVIEWADAPTERREVIEWSTRAIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"/>
+
+        <TextView
+            android:id="@+id/textViewCommentLISTVIEWADAPTERREVIEWSTRAIN"
+            android:layout_width="287dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.81"
+            android:text=""
+            android:textAlignment="viewStart"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewUserLISTVIEWADAPTERREVIEWSTRAIN"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

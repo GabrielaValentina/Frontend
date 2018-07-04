@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonMyTrainMAINACTIVITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trenul meu" />
+
+    <Button
+        android:id="@+id/buttonSearchRouteMAINACTIVITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cauta rute " />
+
+    <Button
+        android:id="@+id/buttonLAndmarkMAINACTIVITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obiective turistice" />
+
+    <Button
+        android:id="@+id/buttonReviewMAINACTIVITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RECENZII" />
+
+    <Button
+        android:id="@+id/buttonOpenChatActivityMAINTRAINACTIVITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat" />
+
+    <Button
+        android:id="@+id/buttonRecommendedRoutesMAINACTIVITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rute recomandate" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRofilul meu" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textViewMessageChatADAPTER"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.41"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="22sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewDataChatADAPTER"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="21:30 (21.03.2018)"
+        android:textAlignment="viewEnd"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_weight="0.04" />
+</LinearLayout>

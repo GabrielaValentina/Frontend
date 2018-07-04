@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#C8C8C8">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:fontFamily="cursive"
+        android:text="Rute recomandate"
+        android:textAlignment="center"
+        android:textColor="#900C3F"
+        android:textSize="44sp" />
+
+    <ListView
+        android:id="@+id/listViewRecommenededRoutesACTIVITY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

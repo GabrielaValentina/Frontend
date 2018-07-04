@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textViewStationsSHOWROUTES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n Medias - Cluj"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_weight="0.06" />
+
+    <RatingBar
+        android:id="@+id/ratingBarSHOWROUTES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:isIndicator="true" />
+
+    <TextView
+        android:id="@+id/textViewCommentSHOWROUTES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:text="a fost bla bla @string/hello_blank_fragment"
+        android:textAlignment="viewStart"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textViewUserDetailsSHOWROUTES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="Postat de Ana Maria in 21.03.2018"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

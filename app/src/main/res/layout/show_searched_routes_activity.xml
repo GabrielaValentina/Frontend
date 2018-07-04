@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#E0E0E0">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:fontFamily="cursive"
+        android:text="\n Rezultatul cautarilor"
+        android:textAlignment="center"
+        android:textColor="#900C3F"
+        android:textSize="44sp"
+        android:textStyle="bold|italic"
+        android:layout_weight="2.35" />
+
+    <ListView
+        android:id="@+id/listViewSEARCHEDROUTESACTIVITY"
+        android:layout_width="461dp"
+        android:layout_height="479dp" />
+</LinearLayout>

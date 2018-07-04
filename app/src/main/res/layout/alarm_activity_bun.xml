@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8C8C8"
+    tools:context="com.example.gabri.licentafrontend.Activities.Train_Activities.Alarm.Alarm_Activity_Bun">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewAlarmSetAtALARMACTIVITY"
+            android:layout_width="369dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/textView25"
+            android:layout_centerHorizontal="true"
+            android:background="#C8C8C8"
+            android:fontFamily="cursive"
+            android:text=" Alarma"
+            android:textAlignment="center"
+            android:textColor="#900C3F"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.041" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/radioGroup2"
+            android:layout_below="@+id/textViewAlarmSetAtALARMACTIVITY">
+
+            <RadioButton
+                android:id="@+id/radioButtonPERSONALIZEDALARM"
+                android:layout_width="280dp"
+                android:layout_height="68dp"
+                android:layout_alignBottom="@+id/radioGroup2"
+                android:layout_alignLeft="@+id/radioButtonIMPLICITALARM"
+                android:layout_alignStart="@+id/radioButtonIMPLICITALARM"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="0dp"
+                android:onClick="onRadioButtonClicked"
+                android:text="Alarmă personalizată"
+                android:textColorLink="#900C3F"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:buttonTint="#900C3F"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.199" />
+
+            <TimePicker
+                android:id="@+id/timePickerAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:headerBackground="#900C3F"
+                android:numbersSelectorColor="#900C3F"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <RadioButton
+                android:id="@+id/radioButtonIMPLICITALARM"
+                android:layout_width="257dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="80dp"
+                android:text="Alarma implicita"
+                android:onClick="onRadioButtonClicked"
+                android:textColorLink="#7E57C2"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.014" />
+
+            <TextView
+                android:id="@+id/radioButtonReviewForTrain"
+                android:layout_width="355dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
+                android:text="Alarma este setata inainte cu 10 minute ca trenul sa ajunga in gara:"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.261" />
+
+            <Spinner
+                android:id="@+id/spinnerStations"
+                android:layout_width="248dp"
+                android:layout_height="26dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/background_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.296" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonSaveALARACTIVITY"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="900dp"
+            android:background="#900C3F"
+            android:textColor="#C8C8C8"
+            android:textStyle="bold|italic"
+            android:text="Salvare"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/buttonStopALARACTIVITY"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="960dp"
+            android:background="#900C3F"
+            android:text="Opreste alarma"
+            android:textColor="#C8C8C8"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_alignEnd="@+id/buttonSaveALARACTIVITY" />
+
+    </RelativeLayout>
+</ScrollView>

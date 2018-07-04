@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewStationLISTVIEWADAPTERSTATIONS"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:background="#f3fafc"
+        android:text="Statia"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textViewArrivalTimeLISTVIEWADAPTERSTATIONS"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:background="#f3fafc"
+        android:text="Sosire la ora"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textViewDepartureTimeLISTVIEWADAPTERSTATIONS"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:background="#f3fafc"
+        android:text="Plecare la ora"
+        android:textAlignment="textStart"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>

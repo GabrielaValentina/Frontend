@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#C8C8C8">
+
+    <TextView
+        android:id="@+id/textViewNameCHATACTIVITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:fontFamily="cursive"
+        android:text="\n Chat"
+        android:textAlignment="center"
+        android:textColor="#900C3F"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/listViewMessagesCHAT"
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15.0sp"/>
+
+    <EditText
+        android:id="@+id/textViewMessageCHAT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.76"
+        android:text="Mesaj..."
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonSENDCHAT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#900C3F"
+        android:text="Trimite"
+        android:textAlignment="center"
+        android:textColor="#C8C8C8"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
